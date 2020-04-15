@@ -13,6 +13,5 @@ var Milestone2Grade = parseFloat(document.getElementById("MyMilestone2Grade").va
 var FinalExamGrade = parseFloat(document.getElementById("MyFinalExamGrade").value);
 
 var FinalGrade = MyParticipationGrade/100 * ParticipationPercent + MyMidtermGrade/100 * MidtermPercent + MyMilestone1Grade/100 * Milestone1Grade + MyFinalExamGrade/100 * FinalExamPercent
-console.log(CurrentGrade)
 
 document.getElementById("CurrentGrade").innerHTML = CurrentGrade
