@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id = "class">
+      <h1>Introduction to the World of Programming</h1>
+      <h2>Evaluation Strategy:</h2>
+      <li> Participation - <span class="PercentageGrade" id = "ParticipationGrade"> 10 </span>%</br> </li>
+      <li> Midterm - <span class="PercentageGrade" id = "MidtermGrade"> 30 </span>%</br> </li>
+      <li>Project Milestone 1 - <span class="PercentageGrade" id = "Milestone1Grade"> 15 </span>%</br> </li>
+      <li>Project Milestone 2 - <span class="PercentageGrade" id = "Milestone2Grade"> 15 </span>%</br> </li>
+      <li>Final Exam - <span class="PercentageGrade" id = "FinalExamGrade"> 30 </span>%</br> </li>
+    </div id = "class">
+
+    <div id = "grades"> 
+      <h2>My Grades</h2>
+      Participation - <input type = "number" id = "MyParticipationGrade"> </br>
+      Midterm -  <input type = "number" id = "MyMidtermGrade"> </br>
+      Project Milestone 1 -  <input type = "number" id = "MyMilestone1Grade"> </br>
+      Project Milestone 2 -  <input type = "number" id = "MyMilestone2Grade"> </br>
+      Final Exam -  <input type = "number" id = "MyFinalExamGrade"> </br>
+    </div id = "grades"> 
+
+    <div id = "CalculatingGrade">
+      <button onclick="CalculateGrade()">Calculate My Grade</button> 
+    </div id = "CalculatingGrade">  
+    
+    <h2> Total Grade: <span id="CurrentGrade"> - </span> </h2>
+
+   </script src = "script.js"></script>  
+  </body>
+</html>
