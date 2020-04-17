@@ -1,4 +1,11 @@
+function checkGrade (evt) {
+var Grade = parseFloat(evt.currentTarget.value);
 
+  if (Grade > 100 || Grade <0) {
+    console.log("Wrong Value")
+    evt.currentTarget.style.color = "red"
+  }
+}
 
 function CalculateGrade() {
 	var ParticipationPercent = parseInt(document.getElementById("ParticipationGrade").innerHTML);
@@ -20,7 +27,5 @@ function CalculateGrade() {
 
 	document.getElementById("CurrentGrade").innerHTML = FinalGrade
 }
-
-
 
 
